@@ -10,5 +10,10 @@ Dataset Name- Card Transaction Data
 Dataset Description – Dataset contains information on the actual credit card purchases from a US government organization. It provides information on Credit Card, Merchant, Date, and Amount involved in each transaction. Moreover, it also contains a column called fraud label which tells us whether the transaction is fraudulent or not.
 
 Total Fields – 10
- Total Records – 96,753
- Time Period - 1st January 2006 – 31st December 2006
+ ,Total Records – 96,753
+ ,Time Period - 1st January 2006 – 31st December 2006
+ 
+ 
+ # SUMMARY
+ 
+A comprehensive analysis of credit card transaction fraud cases was performed. First, we performed exploratory data analysis to explore important fields and understand the distribution of the data. This was followed by data cleaning, outlier removals and missing value imputation. Then, over 1000 candidate variables were created and feature selection was performed (filter and wrapper methods) to pick the best variables. The variables were used across several models: logistic regression, boosted trees, random forest, and neural networks. Our best model to predict fraud was Gradient boosting which resulted in an 81.4% FDR at 3% for the testing dataset and a 56.4% FDR at 3% for the OOT dataset.
