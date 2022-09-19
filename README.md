@@ -10,5 +10,5 @@ Dataset Name- Card Transaction Data
 Dataset Description – Dataset contains information on the actual credit card purchases from a US government organization. It provides information on Credit Card, Merchant, Date, and Amount involved in each transaction. Moreover, it also contains a column called fraud label which tells us whether the transaction is fraudulent or not.
 
 Total Fields – 10
-Total Records – 96,753
-Time Period - 1st January 2006 – 31st December 2006
+ Total Records – 96,753
+ Time Period - 1st January 2006 – 31st December 2006
