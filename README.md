@@ -17,3 +17,7 @@ Total Fields – 10
  # SUMMARY
  
 A comprehensive analysis of credit card transaction fraud cases was performed. First, we performed exploratory data analysis to explore important fields and understand the distribution of the data. This was followed by data cleaning, outlier removals and missing value imputation. Then, over 1000 candidate variables were created and feature selection was performed (filter and wrapper methods) to pick the best variables. The variables were used across several models: logistic regression, boosted trees, random forest, and neural networks. Our best model to predict fraud was Gradient boosting which resulted in an 81.4% FDR at 3% for the testing dataset and a 56.4% FDR at 3% for the OOT dataset.
+
+# REPOSITORY DESCRIPTION
+
+The repository containts the Credit Card Transaction Dataset, the indvidual python notebooks with different processes and the final project report which gives an insight into the data quality report along with the whole process covered in this project.
